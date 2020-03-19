@@ -1,0 +1,35 @@
+{
+    "runningT": 1,
+    "savePath": "./",
+    "format": "json",
+    "row": 100,
+    "beginPosition": "2020-02-01T00:00:00.000Z",
+    "endPosition": "2020-02-01T23:59:59.000Z",
+    "footprint": "Intersects(POLYGON((80 50, 130 50, 130 15, 80 15, 80 50)))",
+    "user": "s5pguest",
+    "password": "s5pguest",
+    "platformname": "Sentinel-5",
+    "processinglevel": "L2",
+    "dataset":[
+        {        
+            "producttype":"L2__NO2___",
+            "geoDataName":"nitrogendioxide_tropospheric_column"
+        },
+        {        
+            "producttype":"L2__CH4___",
+            "geoDataName":"methane_mixing_ratio"
+        },
+        {        
+            "producttype":"L2__CO____",
+            "geoDataName":"carbonmonoxide_total_column"
+        },
+        {        
+            "producttype":"L2__SO2___",
+            "geoDataName":"sulfurdioxide_total_vertical_column"
+        },
+        {        
+            "producttype":"L2__O3____",
+            "geoDataName":"ozone_total_vertical_column"
+        }
+    ]
+}
